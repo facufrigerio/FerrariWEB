@@ -1,23 +1,30 @@
 @media(max-width:768px) {
+
     .textocar {
         width: 100%;
         padding: 5%;
     }
 
     .imagencar {
-        width: 350px;
+        width: 250px;
         height: auto;
 
     }
 
     .framecar {
-        width: 350px;
-        height: 250px;
+        width: 250px;
+        height: auto;
     }
 
     .carousel-inner {
-        width: 350px;
+        width: 250px;
         height: auto;
-        margin-top: 1vh;
+
     }
+
+    .carousel-inner {
+        width: 250px;
+        height: 150px;
+    }
+
 }

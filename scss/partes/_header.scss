@@ -8,6 +8,12 @@
         font-weight: bold;
         padding: 0px;
         font-family: 'Great Vibes', cursive;
+
+        &:hover {
+            background-color: #FBFF00;
+            color: white;
+            border-radius: 5px;
+        }
     }
 }
 

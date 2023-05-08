@@ -11,6 +11,10 @@
     font-weight: bold;
     padding: 0px;
     font-family: 'Great Vibes', cursive; }
+    .navbar li:hover {
+      background-color: #FBFF00;
+      color: white;
+      border-radius: 5px; }
 
 .logo {
   width: 170px;
@@ -41,13 +45,13 @@ body {
   body p {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
-    color: rgba(0, 0, 0, 0.825); }
+    color: rgba(0, 0, 0, 0.825);
+    margin-left: 25px; }
 
 .img-texto {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: none;
   margin-bottom: 10%;
   padding-top: 5%; }
 
@@ -79,7 +83,8 @@ body {
   width: 350px;
   border-radius: 5%;
   margin-left: 50px;
-  margin-top: 8vh; }
+  margin-top: 8vh;
+  height: 225px; }
 
 footer {
   display: flex;
@@ -89,7 +94,7 @@ footer {
   background-attachment: fixed;
   background-size: cover;
   height: auto;
-  margin-bottom: 0; }
+  margin-bottom: 50px; }
 
 .soporte a,
 .terminos a {
@@ -110,12 +115,14 @@ footer {
     width: 100%;
     padding: 5%; }
   .imagencar {
-    width: 350px;
+    width: 250px;
     height: auto; }
   .framecar {
-    width: 350px;
-    height: 250px; }
+    width: 250px;
+    height: auto; }
   .carousel-inner {
-    width: 350px;
-    height: auto;
-    margin-top: 1vh; } }
+    width: 250px;
+    height: auto; }
+  .carousel-inner {
+    width: 250px;
+    height: 150px; } }
