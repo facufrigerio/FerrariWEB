@@ -64,6 +64,13 @@ body {
   margin-top: 12vh; }
   .flex-padre p {
     width: 50vw; }
+  .flex-padre form {
+    width: 500px;
+    height: 450px; }
+  .flex-padre button {
+    background-color: black;
+    color: white;
+    border-color: #000000; }
 
 .imagencar {
   width: 400px;
@@ -125,4 +132,9 @@ footer {
     height: auto; }
   .carousel-inner {
     width: 250px;
-    height: 150px; } }
+    height: 150px; }
+  .formulario {
+    width: 80% !important;
+    height: auto !important; }
+  .navbar {
+    font-size: 19px; } }
